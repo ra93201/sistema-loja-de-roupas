@@ -4,7 +4,7 @@ Este sistema foi um projeto desenvolvido no curso de Tecnologia em Análise e De
 O desafio do Projeto Integrador de Extensão II era desenvolver um protótipo de sistema comercial para pequenos empreendimentos, utilizando a linguagem de programação Java, juntamente com o Swing para construir as telas, e o banco de dados NoSQL Nitrite. Nós optamos, então, por desenvolver um sistema para gestão de lojas de roupas, onde focamos apenas nas funcionalidades necessárias para que isso fosse possível, sendo um sistema intuitivo e de fácil uso. No fim, nosso projeto foi selecionado e premiado como um dos melhores do curso e tivemos nosso vídeo de apresentação do projeto exibido em uma mostra pública da faculdade. [Link do nosso video de apresentação](http://mostravirtual.unisales.br/curso/sistema-de-gestao-para-lojas-de-roupa/).
 
 
-Grupo:
+Grupo:~~~~
 - [Lucas de Almeida Sarmento](https://github.com/Lucas-Almeida-Sar);
 - [Marcos Daniel Mateus e Coelho](https://github.com/barvous);
 - [Mariana Guimarães Jardim](https://github.com/MarianaGJ);

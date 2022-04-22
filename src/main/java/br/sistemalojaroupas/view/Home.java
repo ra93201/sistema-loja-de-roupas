@@ -1,53 +1,29 @@
 package br.sistemalojaroupas.view;
 
-import br.sistemalojaroupas.view.registration.Register_And_Edit_Employee;
-import br.sistemalojaroupas.view.registration.Register_And_Edit_Customer;
-import br.sistemalojaroupas.view.stock.Register_And_Edit_Products;
-import br.sistemalojaroupas.view.sale.New_Sale;
 import br.sistemalojaroupas.db.DB;
-import br.sistemalojaroupas.model.dao.BrandDao;
-import br.sistemalojaroupas.model.dao.CategoryDao;
-import br.sistemalojaroupas.model.dao.ColorDao;
-import br.sistemalojaroupas.model.dao.CustomerDao;
-import br.sistemalojaroupas.model.dao.EmployeeDao;
-import br.sistemalojaroupas.model.dao.ProductDao;
-import br.sistemalojaroupas.model.dao.SaleDao;
-import br.sistemalojaroupas.model.entities.Brand;
-import br.sistemalojaroupas.model.entities.Category;
+import br.sistemalojaroupas.model.dao.*;
 import br.sistemalojaroupas.model.entities.Color;
-import br.sistemalojaroupas.model.entities.Customer;
-import br.sistemalojaroupas.model.entities.Employee;
-import br.sistemalojaroupas.model.entities.Product;
-import br.sistemalojaroupas.model.entities.Sale;
+import br.sistemalojaroupas.model.entities.*;
 import br.sistemalojaroupas.model.services.SaleService;
 import br.sistemalojaroupas.view.listeners.DataChangeListener;
 import br.sistemalojaroupas.view.registration.Change_Password;
+import br.sistemalojaroupas.view.registration.Register_And_Edit_Customer;
+import br.sistemalojaroupas.view.registration.Register_And_Edit_Employee;
+import br.sistemalojaroupas.view.sale.New_Sale;
 import br.sistemalojaroupas.view.sale.SaleInfo;
 import br.sistemalojaroupas.view.stock.Add_Product;
+import br.sistemalojaroupas.view.stock.Register_And_Edit_Products;
 import br.sistemalojaroupas.view.util.Utils;
-import com.google.gson.annotations.Until;
-import java.awt.CardLayout;
-import java.awt.Dimension;
-import java.awt.MouseInfo;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JTable;
-import javax.swing.SwingUtilities;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.text.Utilities;
-import jdk.jshell.execution.Util;
+import java.util.*;
 
 /**
  *

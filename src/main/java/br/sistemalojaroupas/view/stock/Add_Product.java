@@ -10,7 +10,6 @@ import br.sistemalojaroupas.model.entities.Product;
 import java.awt.Color;
 import java.text.ParseException;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
